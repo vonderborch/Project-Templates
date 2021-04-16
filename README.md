@@ -1,2 +1,2 @@
-# VS-Studio-Templates
-Personal templates for Visual Studio
+# Project Templates
+Personal templates for making new projects
