@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="XnaLibraryVSIX.5053cc20-6bca-4301-8d31-fa9414e8625e" Version="1.1" Language="en-US" Publisher="Christian Webber" />
+        <Identity Id="XnaLibraryVSIX.5053cc20-6bca-4301-8d31-fa9414e8625e" Version="1.2" Language="en-US" Publisher="Christian Webber" />
         <DisplayName>XnaLibraryVSIX</DisplayName>
         <Description>Empty VSIX Project.</Description>
         <MoreInfo>https://github.com/vonderborch/Project-Templates</MoreInfo>

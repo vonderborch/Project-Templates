@@ -25,7 +25,7 @@ namespace GenericLibraryVSIX
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            solutionPath = replacementsDictionary["$solutiondirectory$"];
+            solutionPath = replacementsDictionary["$destinationdirectory$"];
         }
 
         public void ProjectFinishedGenerating(Project project)

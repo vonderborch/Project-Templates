@@ -1,6 +1,6 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="GenericLibraryVSIX.5053cc20-6bca-4301-8d31-fa9414e8625d" Version="1.1" Language="en-US" Publisher="Christian Webber" />
+    <Identity Id="GenericLibraryVSIX.5053cc20-6bca-4301-8d31-fa9414e8625d" Version="1.2" Language="en-US" Publisher="Christian Webber" />
     <DisplayName>GenericLibraryVSIX</DisplayName>
     <Description>Empty VSIX Project.</Description>
     <MoreInfo>https://github.com/vonderborch/Project-Templates</MoreInfo>
