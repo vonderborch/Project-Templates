@@ -29,10 +29,11 @@ namespace XnaLibraryVSIX
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            solutionPath = replacementsDictionary["$solutiondirectory$"];
+            solutionPath = replacementsDictionary["$destinationdirectory$"];
             foreach (var file in FilesAndContent)
             {
-                File.WriteAllLines(Path.Combine(solutionPath, file.Key), file.Value);
+                var path = Path.Combine(solutionPath, file.Key);
+                File.WriteAllLines(path, file.Value);
             }
         }
 

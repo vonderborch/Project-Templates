@@ -29,6 +29,6 @@
     <PackageReference Include="fnalibs" Version="21.3.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\FNA\FNA.csproj" />
+    <ProjectReference Include="..\FNA\FNA.csproj" />
   </ItemGroup>
 </Project>

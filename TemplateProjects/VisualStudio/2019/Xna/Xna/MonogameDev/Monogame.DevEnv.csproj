@@ -14,8 +14,8 @@
     <None Remove="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Core\$safeprojectname$.Core.DevEnv\Game1.cs" Link="Game1.cs" />
-    <Compile Include="..\Core\$safeprojectname$.Core.DevEnv\Program.cs" Link="Program.cs" />
+    <Compile Include="..\$safeprojectname$.DevEnv\Game1.cs" Link="Game1.cs" />
+    <Compile Include="..\$safeprojectname$.DevEnv\Program.cs" Link="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />
