@@ -1,0 +1,42 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>XNA Replacement Library</Name>
+        <Description>A library supporting XNA replacements (FNA and Monogame currently).</Description>
+        <Icon>__TemplateIcon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <SolutionFolder Name="Core">
+              <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+                  Core\Core.vstemplate
+              </ProjectTemplateLink>
+              <ProjectTemplateLink ProjectName="$safeprojectname$.DevEnv" CopyParameters="true">
+                  CoreDev\CoreDev.vstemplate
+              </ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="FNA">
+              <ProjectTemplateLink ProjectName="$safeprojectname$.FNA" CopyParameters="true">
+                  FNA\FNA.vstemplate
+              </ProjectTemplateLink>
+              <ProjectTemplateLink ProjectName="$safeprojectname$.FNA.DevEnv" CopyParameters="true">
+                  FNADev\FNADev.vstemplate
+              </ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="Monogame">
+              <ProjectTemplateLink ProjectName="$safeprojectname$.Monogame" CopyParameters="true">
+                  Monogame\Monogame.vstemplate
+              </ProjectTemplateLink>
+              <ProjectTemplateLink ProjectName="$safeprojectname$.Monogame.DevEnv" CopyParameters="true">
+                  MonogameDev\MonogameDev.vstemplate
+              </ProjectTemplateLink>
+            </SolutionFolder>
+        </ProjectCollection>
+    </TemplateContent>
+
+  <WizardExtension>
+    <Assembly>XnaLibraryVSIX, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=6d97d488bc082fdc</Assembly>
+    <FullClassName>XnaLibraryVSIX.Wizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
